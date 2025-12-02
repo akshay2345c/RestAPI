@@ -1,8 +1,11 @@
-import React from 'react'
+import Cards from "./Component/Cards"
 
 const App = () => {
+
+
   return (
-    <div>App</div>
+    
+    <Cards/>
   )
 }
 
