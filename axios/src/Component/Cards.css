@@ -1,0 +1,81 @@
+*{
+background-color: black;
+margin: auto;
+}
+.cardmain{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    
+   
+
+}
+
+.cardmain li{
+ border: 1px solid gray;
+ padding: 1rem;
+ display: grid;
+ gap: 1rem;
+ align-content: space-between;
+text-align: left;
+ justify-content: space-between;
+ border-radius: 8px;
+ 
+height: 300px;
+}
+.cardmain li h4 {
+    font-weight: 600;
+    color: rgb(213, 127, 108);
+    width: 100%;
+
+}
+.cardmain li p{
+    width: 100%;
+    
+}
+.cardmain li span{
+    font-size: 17px;
+    color: greenyellow;
+    font-weight: 600;
+    
+}
+.cardmain li .buttonmain{
+   display: flex;
+    gap: 1rem; 
+    align-items: center;
+    justify-content: space-between;
+}
+.buttonmain button{
+    padding:0.5rem 1rem;
+    border-radius: 25rem;
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    
+
+}
+.buttonmain button:hover{
+
+    background-color: white;
+    color: black;
+    
+    cursor: pointer;
+
+}
+.pagibtn{
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    width: fit-content;
+}
+.pagibtn span{
+    color: white;
+}
